@@ -1,75 +1,146 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Macondo|Pacifico|Work+Sans|Josefin+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Macondo|Pacifico|Work+Sans|Josefin+Sans&display=swap"
+		rel="stylesheet">
+
+	<style>
+
+		h3 {
+			font-family: Work Sans;
+			font-size: 1.8rem;
+		}
+
+		p {
+			font-family: Work Sans;
+			font-size: 1.4rem
+		}
+
+		.quote h3 {
+			margin-bottom: 10px;
+		}
+
+		.quote p {
+			margin-top: 10px;
+		}
+
+		.accomplishments p {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		@media screen and (max-width: 1100px) {
+			.about-me {
+				flex-direction: column;
+			}
+
+			.quote {
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+		}
+	</style>
 </head>
+
 <body style="padding: 0; margin: 0; height: 100%; width: 100%;background-image: url('./Scattered-Forcefields.svg')">
-	<div style="min-height: 40vh; width: 100%; display: flex; flex-direction: column; justify-content: flex-end;align-items: center;">
+	<div
+		style="min-height: 40vh; width: 100%; display: flex; flex-direction: column; justify-content: flex-end;align-items: center;">
 		<h2 style="font-family: Work Sans; font-size: 3.3rem;">Deepak S M</h2>
 		<p style="font-family: Work Sans; font-size: 2.3rem;">Web Developer | AI Researcher</p>
 	</div>
-<div 
-style="min-height: 100vh;width: 100%;">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -10px;">
-  <path fill="#0099ff" fill-opacity="1" d="M0,288L120,288C240,288,480,288,720,245.3C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-</svg>
-<div style="height: 500px; width: 100%; background-color: #0099ff; display: flex; justify-content: space-around; align-items: center;">
-	<div style="flex: 1; display: flex; justify-content: center; align-items: center">
-	<div style="border-radius: 50%; background-image: url('./deepak.jpg');background-position: center; background-size: contain; background-repeat: no-repeat; height: 250px; width: 240px;
+	<div style="min-height: 100vh;width: 100%;">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -10px;">
+			<path fill="#0099ff" fill-opacity="1"
+				d="M0,288L120,288C240,288,480,288,720,245.3C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+			</path>
+		</svg>
+		<div
+			style="width: 100%; background-color: #0099ff; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;" class="about-me">
+			<div style="flex: 1; display: flex; justify-content: center; align-items: center">
+				<div style="border-radius: 50%; background-image: url('./deepak.jpg');background-position: center; background-size: contain; background-repeat: no-repeat; height: 250px; width: 240px;
 	box-shadow: 0 0 8px 8px #0099ff inset;
 	"></div>
-</div>
-	<div class="quote" style="flex: 1; display:flex; flex-direction: column; justify-content: center; align-items:  flex-start; text-align: justify; padding-right: 40px;">
-		<h3 style="font-family: Work Sans; font-size: 2.5rem; margin-top: 0px; padding-top: 80px; text-align: center; margin-bottom: 5px;">What I Think</h3>
-		<p style="font-family: Pacifico, sans-serif; font-size: 2rem; margin-bottom: 5px;">" Love is what makes the world run "</p>
-		<p style="font-family: Work Sans; font-size: 1.3rem;">Internet is my companion since my childhood. It showed me the real education that i longed for while in school. My path to destiny is colored with design & coated with logic. I do Web Development as an art. AI attracted me mainly because it needs math + creativity.
-	<!-- 	 With the powers of AI & Web Development, started to paint the world with my creativity. -->
-		</p>
-	</div>
-</div>
+			</div>
+			<div class="quote"
+				style="flex: 1; text-align: justify; padding-right: 40px; padding-bottom: 40px; font-family: Work Sans; font-size: 1.3rem;">
+				<h3>What I Do?</h3>
+				<p>I'm a Web Developer at day and an AI Student at night. The beauty of Math steals away my free time,
+					if any.</p>
 
-<div class="accomplishments" style="display: flex; min-height: 60vh; flex-direction: column;justify-content: center; align-items: center; margin-top: 50px;">
-	<h3 style="font-family: Work Sans; font-size: 2.5rem;">What I Do</h3>
-	<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start;width: 100%; margin-top: 40px; height: fit-content;">
-		<div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-			<p style="font-family: Work Sans; font-size: 2.5rem;">Web Development</p>
-			<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">HTML</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">CSS</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">JAVASCRIPT</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">NODE</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">REACT</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">PYTHON</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">AWS TECHNOLOGIES</p>
+				<h3>What I want my future self to be?</h3>
+				<p>I want to remain as a kid. Why? Because children has no fears and expresses tremendous curiosity who
+					yearns to dive completely into anything in front of them. And, I love that nature! :)</p>
+
+				<h3>What I believe in?</h3>
+				<p>Through the scale of our Universe, anything is achievable with enough Confidence and Work.</p>
+
+				<h3>What I aspire for?</h3>
+				<p>I'm on my way to be better at AI and Tech to make wonders by mixing them with Farming, Education,
+					Construction, Automobiles, etc. I believe that AI can make the world a better place by diverting the
+					focus of our fellow humans from survival to discover mode. I aspire to make this a reality one day.
+				</p>
+
+				<p>I like to meet new people and know about different perspectives, so, don't hesitate to drop a
+					message. :)</p>
 			</div>
 		</div>
-		<div style="height: 70vh; width: 1px; background-color: #888;"></div>
-		<div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-			<p style="font-family: Work Sans; font-size: 2.5rem;">AI Research</p>
-			<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">SUPERVISED LEARNING</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">UNSUPERVISED LEARNING</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">REINFORCEMENT LEARNING</p>
-				<p style="font-family: Damion, sans-serif; font-size: 1.5rem;">NEURAL NETWORKS</p>
+
+		<div class="accomplishments"
+			style="display: flex; background-color: rgba(255,255,255,0.95); min-height: 60vh; flex-direction: column;justify-content: center; align-items: center; padding-top: 50px;">
+			<h3 style="font-family: Work Sans; font-size: 2.5rem; ">My Tools</h3>
+			<div
+				style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start;width: 100%; margin-top: 40px; height: fit-content;">
+				<div
+					style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+					<h3>Web Development</h3>
+					<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>JAVASCRIPT</p>
+						<p>NODE</p>
+						<p>REACT</p>
+						<p>PYTHON</p>
+						<p>AWS TECHNOLOGIES</p>
+					</div>
+				</div>
+				<div style="height: 50vh; width: 1px; background-color: #888;"></div>
+				<div
+					style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+					<h3>AI Research</h3>
+					<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+						<p>SUPERVISED LEARNING</p>
+						<p>UNSUPERVISED LEARNING</p>
+						<p>REINFORCEMENT LEARNING</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div
+				style="background-image: url('wavy_1.svg'); background-size: cover; background-repeat: no-repeat; height: 20vh; width: 100%;">
+			</div>
+			<div style="min-height: 20vh; width: 100%; background-color: #10ac84">
+				<h3
+					style="font-family: Work Sans; font-size: 2.5rem; margin-top: 0px; padding-top: 80px; text-align: center;">
+					Let's Have A Chat</h3>
+				<div
+					style="width: 100%; display: flex; justify-content: center; align-items: center;padding-bottom: 40px;">
+					<a href="mailto:smvirtualdesigner@gmail.com" target="_top" type="email"
+						style="font-size: 2rem; font-family: Damion; text-decoration: none; cursor: pointer; color: black;background-image: url('./email.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px; margin-right: 20px;"></a>
+					<a href="https://github.com/virtualdesigner" target="_blank"
+						style="font-size: 2rem;font-family: Damion; text-decoration: none; cursor: pointer;color: black; background-image: url('./github-1.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px;margin-right: 20px;"></a>
+					<a href="https://www.linkedin.com/in/s-m-deepak-5ba253154/" target="_blank"
+						style="font-size: 2rem; font-family: Damion; text-decoration: none; cursor: pointer; color: black;background-image: url('./linkedin.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px; margin-right: 20px;"></a>
+
+
+					<a href="https://twitter.com/S_M_DEEPAK" target="_blank"
+						style="font-size: 2rem;font-family: Damion; text-decoration: none; cursor: pointer;color: black;background-image: url('./twitter-1.svg'); background-repeat: no-repeat; background-size: cover; background-position: bottom; height: 40px; width: 40px; margin-right: 20px;"></a>
+				</div>
+
 			</div>
 		</div>
 	</div>
-</div>
-<div class="footer">
-	<div style="background-image: url('wavy_1.svg'); background-size: cover; background-repeat: no-repeat; height: 30vh; width: 100%;"></div>
-	<div style="min-height: 30vh; width: 100%; background-color: #10ac84">
-			<h3 style="font-family: Work Sans; font-size: 2.5rem; margin-top: 0px; padding-top: 80px; text-align: center;">Let's Have A Chat</h3>
-			<div style="width: 100%; display: flex; justify-content: center; align-items: center;padding-bottom: 40px;">
-				<a href="mailto:smvirtualdesigner@gmail.com" target="_top" type="email" style="font-size: 2rem; font-family: Damion; text-decoration: none; cursor: pointer; color: black;background-image: url('./email.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px; margin-right: 20px;"></a>
-				<a href="https://github.com/virtualdesigner" target="_blank" style="font-size: 2rem;font-family: Damion; text-decoration: none; cursor: pointer;color: black; background-image: url('./github-1.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px;margin-right: 20px;"></a>
-				<a href="https://www.linkedin.com/in/s-m-deepak-5ba253154/" target="_blank" style="font-size: 2rem; font-family: Damion; text-decoration: none; cursor: pointer; color: black;background-image: url('./linkedin.svg'); background-repeat: no-repeat; background-size: cover; height: 40px; width: 40px; margin-right: 20px;"></a>
-				
-				
-				<a href="https://twitter.com/S_M_DEEPAK" target="_blank" style="font-size: 2rem;font-family: Damion; text-decoration: none; cursor: pointer;color: black;background-image: url('./twitter-1.svg'); background-repeat: no-repeat; background-size: cover; background-position: bottom; height: 40px; width: 40px; margin-right: 20px;"></a>
-			</div>
-
-	</div>
-</div>
-</div>
 </body>
+
 </html>
